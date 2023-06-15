@@ -1,0 +1,24 @@
+.d0 {
+    width: 400px;
+}
+ 
+header, nav, section, article, aside, footer {
+    border: 1px solid black;
+ 
+    text-align: center;
+    margin: 5px;
+ 
+    height: 50px;
+}
+ 
+.d1 {
+    display: flex;
+}
+ 
+.d2 {
+    width: 50%;
+}
+ 
+aside {
+    width: 50%;
+}
