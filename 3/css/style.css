@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+#p1 {
+    color: blue;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+body form h1 {
+    border: 1px solid black;
+    margin-top: 5px;
+    align-self: flex-start;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+body {
+    padding: 10px;
+}
+form {
+    width: 420px;
+    height: 426px;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(210, 210, 210);
+}
+#close {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0px 16px 5px 380px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+} 
+#p2 {
+    font-weight: 400;
+    width: 356px;
+    height: 48px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B8E98;
+    margin-bottom: 24px;
+}
+.a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7px 16px;
+    width: 356px;
+    height: 48px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.em {
+    border: 1px solid #FFE44D;
+    margin-bottom:  8px;
+    
+}
+.pass {
+    border: 1px solid #7B8E98;
+    margin-bottom: 24px;
+}
+.b1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 24px;
+    width: 356px;
+    height: 48px;
+    border-radius: 24px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.yelow {
+    margin-bottom: 8px;
+    background-color: #FFE44D;
+    border: none;
+}
+.white {
+    background-color: #FFFFFF;
+    border: 1px solid #CFD8DC;
+}
+#form h1 {
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
