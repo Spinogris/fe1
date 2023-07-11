@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 10</title>
+    <style>
+        .userCard {
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .userCard:hover {
+            background-color: rgb(255, 244, 187);
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="handleSubmit(event)">
+        <label for="firstName">Имя:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="lastName">Фамилия:</label>
+        <input type="text" id="lastName" required>
+
+        <label for="age">Возраст:</label>
+        <input type="number" id="age" required>
+
+        <button type="submit">Отправить</button>
+    </form>
+
+    <div id="userContainer"></div>
+</body>
+<script src="./scripts/script.js"></script>
+</html>
